@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Comprimento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Conversor de Unidades de Comprimento</h1>
+
+    <input id="valor" type="number" placeholder="Digite o valor">
+
+    <select id="origem">
+        <option value="metro">Metro</option>
+        <option value="quilometro">Quilômetro</option>
+        <option value="milha">Milha</option>
+        <option value="polegada">Polegada</option>
+    </select>
+
+    <select id="destino">
+        <option value="metro">Metro</option>
+        <option value="quilometro">Quilômetro</option>
+        <option value="milha">Milha</option>
+        <option value="polegada">Polegada</option>
+    </select>
+
+    <button onclick="converter()">Converter</button>
+
+    <h2 id="resultado"></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
